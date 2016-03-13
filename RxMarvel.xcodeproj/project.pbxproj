@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		53F9061F1C95E0390095E1B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9061E1C95E0390095E1B9 /* AppDelegate.swift */; };
-		53F906211C95E0390095E1B9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F906201C95E0390095E1B9 /* HomeViewController.swift */; };
+		53F906211C95E0390095E1B9 /* HeroTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F906201C95E0390095E1B9 /* HeroTableViewController.swift */; };
 		53F906241C95E0390095E1B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F906221C95E0390095E1B9 /* Main.storyboard */; };
 		53F906261C95E0390095E1B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53F906251C95E0390095E1B9 /* Assets.xcassets */; };
 		53F906291C95E0390095E1B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F906271C95E0390095E1B9 /* LaunchScreen.storyboard */; };
 		53F906341C95E0390095E1B9 /* RxMarvelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F906331C95E0390095E1B9 /* RxMarvelTests.swift */; };
 		53F9063F1C95E0390095E1B9 /* RxMarvelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9063E1C95E0390095E1B9 /* RxMarvelUITests.swift */; };
+		53F906521C95E68B0095E1B9 /* ThumbnailType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F906511C95E68B0095E1B9 /* ThumbnailType.swift */; };
+		53F906541C95EBB70095E1B9 /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F906531C95EBB70095E1B9 /* Thumbnail.swift */; };
+		53F906561C95EDD30095E1B9 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F906551C95EDD30095E1B9 /* Hero.swift */; };
+		53F906581C95EE4F0095E1B9 /* HeroTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F906571C95EE4F0095E1B9 /* HeroTableViewModel.swift */; };
 		C7E3D02E229E068D326C4D59 /* Pods_RxMarvel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ECB84F6490443DB4323F711 /* Pods_RxMarvel.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +42,7 @@
 		2FC63958FAB1D6BFB95058A3 /* Pods-RxMarvel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMarvel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxMarvel/Pods-RxMarvel.debug.xcconfig"; sourceTree = "<group>"; };
 		53F9061B1C95E0390095E1B9 /* RxMarvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxMarvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F9061E1C95E0390095E1B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		53F906201C95E0390095E1B9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		53F906201C95E0390095E1B9 /* HeroTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTableViewController.swift; sourceTree = "<group>"; };
 		53F906231C95E0390095E1B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53F906251C95E0390095E1B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53F906281C95E0390095E1B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		53F9063A1C95E0390095E1B9 /* RxMarvelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxMarvelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F9063E1C95E0390095E1B9 /* RxMarvelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxMarvelUITests.swift; sourceTree = "<group>"; };
 		53F906401C95E0390095E1B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F906511C95E68B0095E1B9 /* ThumbnailType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailType.swift; sourceTree = "<group>"; };
+		53F906531C95EBB70095E1B9 /* Thumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thumbnail.swift; sourceTree = "<group>"; };
+		53F906551C95EDD30095E1B9 /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		53F906571C95EE4F0095E1B9 /* HeroTableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroTableViewModel.swift; sourceTree = "<group>"; };
 		5ECB84F6490443DB4323F711 /* Pods_RxMarvel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMarvel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE90845F233911C9F6CB81F9 /* Pods-RxMarvel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMarvel.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxMarvel/Pods-RxMarvel.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,11 +129,13 @@
 		53F9061D1C95E0390095E1B9 /* RxMarvel */ = {
 			isa = PBXGroup;
 			children = (
+				53F906251C95E0390095E1B9 /* Assets.xcassets */,
 				53F9064C1C95E07A0095E1B9 /* Common */,
+				53F9062A1C95E0390095E1B9 /* Info.plist */,
+				53F9064F1C95E64E0095E1B9 /* Models */,
 				53F9064E1C95E0850095E1B9 /* Storyboards */,
 				53F9064D1C95E07F0095E1B9 /* ViewControllers */,
-				53F906251C95E0390095E1B9 /* Assets.xcassets */,
-				53F9062A1C95E0390095E1B9 /* Info.plist */,
+				53F906501C95E6540095E1B9 /* ViewModels */,
 			);
 			path = RxMarvel;
 			sourceTree = "<group>";
@@ -159,7 +169,7 @@
 		53F9064D1C95E07F0095E1B9 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				53F906201C95E0390095E1B9 /* HomeViewController.swift */,
+				53F906201C95E0390095E1B9 /* HeroTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -171,6 +181,24 @@
 				53F906221C95E0390095E1B9 /* Main.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		53F9064F1C95E64E0095E1B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				53F906511C95E68B0095E1B9 /* ThumbnailType.swift */,
+				53F906531C95EBB70095E1B9 /* Thumbnail.swift */,
+				53F906551C95EDD30095E1B9 /* Hero.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		53F906501C95E6540095E1B9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				53F906571C95EE4F0095E1B9 /* HeroTableViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +214,7 @@
 				53F906191C95E0390095E1B9 /* Resources */,
 				210E2D9464BA68BE6B5566F2 /* Embed Pods Frameworks */,
 				ADACDCB598241C348BF321F0 /* Copy Pods Resources */,
+				SWIFCLEANCUSTOMRUNSCRIPT /* Swift-Clean Run Script */,
 			);
 			buildRules = (
 			);
@@ -348,6 +377,20 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxMarvel/Pods-RxMarvel-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		SWIFCLEANCUSTOMRUNSCRIPT /* Swift-Clean Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Swift-Clean Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "if [[ -z ${SKIP_SWIFTCLEAN} || ${SKIP_SWIFTCLEAN} != 1 ]]; then\nif [[ -d \"${LOCAL_APPS_DIR}/Swiftly-Clean.app\" ]]; then \n\"${LOCAL_APPS_DIR}\"/Swiftly-Clean.app/Contents/Resources/SwiftClean.app/Contents/MacOS/SwiftClean \"${SRCROOT}\"?@autoFix \nelse\necho \"warning: You have to install and set up Swift-Clean to use its features!\" \nfi\nfi";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -355,7 +398,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53F906211C95E0390095E1B9 /* HomeViewController.swift in Sources */,
+				53F906561C95EDD30095E1B9 /* Hero.swift in Sources */,
+				53F906211C95E0390095E1B9 /* HeroTableViewController.swift in Sources */,
+				53F906521C95E68B0095E1B9 /* ThumbnailType.swift in Sources */,
+				53F906581C95EE4F0095E1B9 /* HeroTableViewModel.swift in Sources */,
+				53F906541C95EBB70095E1B9 /* Thumbnail.swift in Sources */,
 				53F9061F1C95E0390095E1B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
