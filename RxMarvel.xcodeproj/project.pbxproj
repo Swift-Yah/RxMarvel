@@ -77,10 +77,10 @@
 		53F906121C95E0390095E1B9 = {
 			isa = PBXGroup;
 			children = (
+				53F9061C1C95E0390095E1B9 /* Products */,
 				53F9061D1C95E0390095E1B9 /* RxMarvel */,
 				53F906321C95E0390095E1B9 /* RxMarvelTests */,
 				53F9063D1C95E0390095E1B9 /* RxMarvelUITests */,
-				53F9061C1C95E0390095E1B9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +97,11 @@
 		53F9061D1C95E0390095E1B9 /* RxMarvel */ = {
 			isa = PBXGroup;
 			children = (
-				53F906251C95E0390095E1B9 /* Assets.xcassets */,
 				53F9064C1C95E07A0095E1B9 /* Common */,
-				53F9062A1C95E0390095E1B9 /* Info.plist */,
 				53F9064E1C95E0850095E1B9 /* Storyboards */,
 				53F9064D1C95E07F0095E1B9 /* ViewControllers */,
+				53F906251C95E0390095E1B9 /* Assets.xcassets */,
+				53F9062A1C95E0390095E1B9 /* Info.plist */,
 			);
 			path = RxMarvel;
 			sourceTree = "<group>";
@@ -109,8 +109,8 @@
 		53F906321C95E0390095E1B9 /* RxMarvelTests */ = {
 			isa = PBXGroup;
 			children = (
-				53F906331C95E0390095E1B9 /* RxMarvelTests.swift */,
 				53F906351C95E0390095E1B9 /* Info.plist */,
+				53F906331C95E0390095E1B9 /* RxMarvelTests.swift */,
 			);
 			path = RxMarvelTests;
 			sourceTree = "<group>";
@@ -118,8 +118,8 @@
 		53F9063D1C95E0390095E1B9 /* RxMarvelUITests */ = {
 			isa = PBXGroup;
 			children = (
-				53F9063E1C95E0390095E1B9 /* RxMarvelUITests.swift */,
 				53F906401C95E0390095E1B9 /* Info.plist */,
+				53F9063E1C95E0390095E1B9 /* RxMarvelUITests.swift */,
 			);
 			path = RxMarvelUITests;
 			sourceTree = "<group>";
@@ -129,7 +129,7 @@
 			children = (
 				53F9061E1C95E0390095E1B9 /* AppDelegate.swift */,
 			);
-			name = Common;
+			path = Common;
 			sourceTree = "<group>";
 		};
 		53F9064D1C95E07F0095E1B9 /* ViewControllers */ = {
@@ -137,7 +137,7 @@
 			children = (
 				53F906201C95E0390095E1B9 /* HomeViewController.swift */,
 			);
-			name = ViewControllers;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		53F9064E1C95E0850095E1B9 /* Storyboards */ = {
@@ -146,7 +146,7 @@
 				53F906271C95E0390095E1B9 /* LaunchScreen.storyboard */,
 				53F906221C95E0390095E1B9 /* Main.storyboard */,
 			);
-			name = Storyboards;
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,6 +323,7 @@
 				53F906231C95E0390095E1B9 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		53F906271C95E0390095E1B9 /* LaunchScreen.storyboard */ = {
@@ -331,6 +332,7 @@
 				53F906281C95E0390095E1B9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -508,6 +510,7 @@
 				53F906451C95E0390095E1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53F906461C95E0390095E1B9 /* Build configuration list for PBXNativeTarget "RxMarvelTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +519,7 @@
 				53F906481C95E0390095E1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53F906491C95E0390095E1B9 /* Build configuration list for PBXNativeTarget "RxMarvelUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +528,7 @@
 				53F9064B1C95E0390095E1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
