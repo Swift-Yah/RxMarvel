@@ -1,5 +1,8 @@
 PODS:
   - Alamofire (3.2.1)
+  - Argo (2.3.0)
+  - Curry (2.0.0)
+  - Runes (3.2.0)
   - RxAlamofire (1.1.1):
     - RxAlamofire/Core (= 1.1.1)
   - RxAlamofire/Core (1.1.1):
@@ -13,6 +16,9 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - Argo
+  - Curry
+  - Runes
   - RxAlamofire
   - RxBlocking
   - RxCocoa
@@ -20,6 +26,9 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Alamofire: f11d8624a05f5d39e0c99309b3e600a3ba64298a
+  Argo: 3dbecf4204b1a3cdd1df88ebd5e23d01b652d34b
+  Curry: 5c5c5887d80fa22ca2133c7ea4d48c4d02283c0a
+  Runes: ab2f892272d5165f64620f8086578b28cde98a02
   RxAlamofire: 5900f3842dd7bad9ca620bfb5917b9c984db5cca
   RxBlocking: 5bbc826774c4290effa8fe070841e9d45e864639
   RxCocoa: 42efb7a7145a8d1d5878e94ce48a580d29e0c796

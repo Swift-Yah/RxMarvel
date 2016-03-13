@@ -24,6 +24,10 @@
 		53F906621C95FD760095E1B9 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F906611C95FD760095E1B9 /* String.swift */; };
 		53F906661C9602780095E1B9 /* ParamKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F906651C9602780095E1B9 /* ParamKeys.swift */; };
 		53F906681C9607EB0095E1B9 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F906671C9607EB0095E1B9 /* Operators.swift */; };
+		53F9066C1C9611710095E1B9 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9066B1C9611710095E1B9 /* UITableView.swift */; };
+		53F9066E1C961CC10095E1B9 /* Batch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9066D1C961CC10095E1B9 /* Batch.swift */; };
+		53F906701C96218E0095E1B9 /* HeroAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9066F1C96218E0095E1B9 /* HeroAPI.swift */; };
+		53F906721C9624580095E1B9 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F906711C9624580095E1B9 /* JSON.swift */; };
 		C7E3D02E229E068D326C4D59 /* Pods_RxMarvel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ECB84F6490443DB4323F711 /* Pods_RxMarvel.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +74,10 @@
 		53F906641C95FF800095E1B9 /* RxMarvel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RxMarvel-Bridging-Header.h"; sourceTree = "<group>"; };
 		53F906651C9602780095E1B9 /* ParamKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParamKeys.swift; sourceTree = "<group>"; };
 		53F906671C9607EB0095E1B9 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		53F9066B1C9611710095E1B9 /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		53F9066D1C961CC10095E1B9 /* Batch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Batch.swift; sourceTree = "<group>"; };
+		53F9066F1C96218E0095E1B9 /* HeroAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroAPI.swift; sourceTree = "<group>"; };
+		53F906711C9624580095E1B9 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		5ECB84F6490443DB4323F711 /* Pods_RxMarvel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMarvel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE90845F233911C9F6CB81F9 /* Pods-RxMarvel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMarvel.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxMarvel/Pods-RxMarvel.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -202,9 +210,11 @@
 		53F9064F1C95E64E0095E1B9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				53F906511C95E68B0095E1B9 /* ThumbnailType.swift */,
-				53F906531C95EBB70095E1B9 /* Thumbnail.swift */,
+				53F9066D1C961CC10095E1B9 /* Batch.swift */,
 				53F906551C95EDD30095E1B9 /* Hero.swift */,
+				53F9066F1C96218E0095E1B9 /* HeroAPI.swift */,
+				53F906531C95EBB70095E1B9 /* Thumbnail.swift */,
+				53F906511C95E68B0095E1B9 /* ThumbnailType.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -231,8 +241,10 @@
 		53F906601C95FD520095E1B9 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				53F906611C95FD760095E1B9 /* String.swift */,
 				53F906671C9607EB0095E1B9 /* Operators.swift */,
+				53F906611C95FD760095E1B9 /* String.swift */,
+				53F9066B1C9611710095E1B9 /* UITableView.swift */,
+				53F906711C9624580095E1B9 /* JSON.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -444,6 +456,8 @@
 			files = (
 				53F906561C95EDD30095E1B9 /* Hero.swift in Sources */,
 				53F906211C95E0390095E1B9 /* HeroTableViewController.swift in Sources */,
+				53F9066E1C961CC10095E1B9 /* Batch.swift in Sources */,
+				53F906701C96218E0095E1B9 /* HeroAPI.swift in Sources */,
 				53F906621C95FD760095E1B9 /* String.swift in Sources */,
 				53F9065D1C95F5A10095E1B9 /* EndPoint.swift in Sources */,
 				53F9065F1C95F88B0095E1B9 /* Marvel.swift in Sources */,
@@ -452,8 +466,10 @@
 				53F906521C95E68B0095E1B9 /* ThumbnailType.swift in Sources */,
 				53F906581C95EE4F0095E1B9 /* HeroTableViewModel.swift in Sources */,
 				53F906541C95EBB70095E1B9 /* Thumbnail.swift in Sources */,
+				53F9066C1C9611710095E1B9 /* UITableView.swift in Sources */,
 				53F906661C9602780095E1B9 /* ParamKeys.swift in Sources */,
 				53F9061F1C95E0390095E1B9 /* AppDelegate.swift in Sources */,
+				53F906721C9624580095E1B9 /* JSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
