@@ -2,6 +2,8 @@ platform :ios, '9.0'
 use_frameworks!
 
 target 'RxMarvel' do
+	pod 'Alamofire'
+	pod 'RxAlamofire'
 	pod 'RxBlocking'
 	pod 'RxCocoa'
 	pod 'RxSwift'
