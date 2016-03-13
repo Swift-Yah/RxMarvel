@@ -3,6 +3,9 @@ use_frameworks!
 
 target 'RxMarvel' do
 	pod 'Alamofire'
+	pod 'Argo'
+	pod 'Curry'
+	pod 'Runes'
 	pod 'RxAlamofire'
 	pod 'RxBlocking'
 	pod 'RxCocoa'
@@ -16,4 +19,3 @@ end
 target 'RxMarvelUITests' do
 
 end
-
