@@ -15,6 +15,6 @@ struct ParamKeys {
     static let limit = "limit"
     static let offset = "offset"
     static let searchName = "nameStartsWith"
-    static let timeStamp = "hs"
+    static let timeStamp = "ts"
     
 }

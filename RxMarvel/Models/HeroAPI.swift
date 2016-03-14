@@ -11,40 +11,72 @@ import RxSwift
 
 struct HeroAPI {
     
+    static var getableApi: JsonGET.Type = Marvel.self
+    
     private static let decodeScheduler = SerialDispatchQueueScheduler(internalSerialQueueName: "io.swift-yah.RxMarvel.HeroAPI.decodedQueue")
     
     typealias HeroTableResult = (heroes: Decoded<[Hero]>, batch: Decoded<Batch>)
     
-    private static func recursiveHeroList(offset: Int = 0, limit: Int, loadNextBatch: Observable<Void>) -> Observable<[Hero]> {
-        
-        let params = [
+    private static func recursiveHeroList(loadedSoFar: [Hero], offset: Int = 0, limit: Int, search: String, loadNextBatch: Observable<Void>) -> Observable<[Hero]> {
+        let params: [String: AnyObject] = [
             ParamKeys.limit: limit,
-            ParamKeys.offset: offset
+            ParamKeys.offset: String(offset),
+            ParamKeys.searchName: search
         ]
         
         return heroListSignal(params)
-            .flatMap { (tuple: HeroTableResult) -> Observable < [Hero]> in
+            .flatMap { (tuple: HeroTableResult) -> Observable<[Hero]> in
                 guard let heroes = tuple.heroes.value, let batch = tuple.batch.value else {
                     return Observable.empty()
                 }
                 
-                let futureTotal = batch.offset + batch.count
+                var loadedHeroes = loadedSoFar
+                loadedHeroes.appendContentsOf(heroes)
                 
-                if batch.offset == batch.total || futureTotal == batch.total {
+                let nextOffset = batch.count + batch.offset
+                
+                if batch.offset == batch.total || nextOffset == batch.total {
+                    return Observable.just(loadedHeroes)
+                }
+                
+                return [
+                    Observable.just(loadedHeroes),
+                    Observable.never().takeUntil(loadNextBatch),
+                    recursiveHeroList(loadedHeroes, offset: nextOffset, limit: batch.limit, search: search, loadNextBatch: loadNextBatch)
+                    ].concat()
+        }
+    }
+    
+    private static func recursiveHeroList(offset: Int = 0, limit: Int, loadNextBatch: Observable<Void>) -> Observable<[Hero]> {
+        
+        let params: [String: AnyObject] = [
+            ParamKeys.limit: limit,
+            ParamKeys.offset: String(offset)
+        ]
+        
+        return heroListSignal(params)
+            .flatMap { (tuple: HeroTableResult) -> Observable <[Hero]> in
+                guard let heroes = tuple.heroes.value, let batch = tuple.batch.value else {
+                    return Observable.empty()
+                }
+                
+                let nextOffset = batch.count + batch.offset
+                
+                if batch.offset == batch.total || nextOffset == batch.total {
                     return Observable.just(heroes)
                 }
                 
                 return [
                     Observable.just(heroes),
                     Observable.never().takeUntil(loadNextBatch),
-                    recursiveHeroList(limit: batch.limit, loadNextBatch: loadNextBatch)
+                    recursiveHeroList(nextOffset, limit: batch.limit, loadNextBatch: loadNextBatch)
                     ].concat()
         }
         
     }
     
     static func heroListSignal(params: [String: AnyObject]? = nil) -> Observable<HeroTableResult> {
-        return Marvel
+        return getableApi
             .getData(.Characters)(parameters: params)
             .observeOn(decodeScheduler)
             .map(HeroDecoder.decode)
@@ -64,6 +96,18 @@ extension HeroAPI {
             
             return (Decoded.Failure(invalidJSON), Decoded.Failure(invalidJSON))
         }
+    }
+    
+}
+
+extension HeroAPI: HeroAutoLoading {
+    
+    static func getItems(offset: Int = 0, limit: Int, loadNextBatch: Observable<Void>) -> Observable<[Hero]> {
+        return recursiveHeroList(offset, limit: limit, loadNextBatch: loadNextBatch)
+    }
+    
+    static func searchItems(offset: Int = 0, limit: Int = 40, search: String, loadNextBatch: Observable<Void>) -> Observable<[Hero]> {
+        return recursiveHeroList([], offset: offset, limit: limit, search: search, loadNextBatch: loadNextBatch)
     }
     
 }

@@ -14,8 +14,8 @@ func JSONDictionary(json: AnyObject) -> [String: AnyObject]? {
 }
 
 func JSONDictionary(json: AnyObject)(key: String) -> [String: AnyObject]? {
-    if let dictionary = JSONDictionary - << json {
-        return JSONDictionary - << dictionary[key]
+    if let dictionary = JSONDictionary -<< json {
+        return JSONDictionary -<< dictionary[key]
     }
     
     return nil

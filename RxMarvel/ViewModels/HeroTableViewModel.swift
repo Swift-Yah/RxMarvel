@@ -38,3 +38,27 @@ struct HeroTableViewModel {
     }
     
 }
+
+extension HeroTableViewModel: NibProvidableClassProvider {
+    
+    var nibProvidableType: NibProvidable.Type {
+        return HeroTableViewCell.self
+    }
+    
+}
+
+extension HeroTableViewModel: ReuseableViewClassProvider {
+    
+    var reusableViewType: ReusableView.Type {
+        return HeroTableViewCell.self
+    }
+    
+}
+
+extension HeroTableViewModel: VariableProvidable {
+    
+    var variable: Variable<HeroTableViewModel> {
+        return Variable(self)
+    }
+    
+}
