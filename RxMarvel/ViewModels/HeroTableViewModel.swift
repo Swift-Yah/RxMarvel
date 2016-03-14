@@ -11,7 +11,7 @@ import RxSwift
 struct HeroTableViewModel {
     
     let title: Variable<String>
-    let thumbnailType = ThumbnailType.Uncanny
+    let thumbnailType = ThumbnailType.Medium
     let thumbnailPath: Variable<NSURL>
     let hero: Hero
     
