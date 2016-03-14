@@ -27,7 +27,7 @@ extension Thumbnail: Decodable {
     static func decode(json: JSON) -> Decoded<Thumbnail> {
         return curry(Thumbnail.init)
             <^> json <| "path"
-            < * > json <| "extension"
+            <*> json <| "extension"
     }
     
 }

@@ -11,7 +11,7 @@ import RxSwift
 struct HeroTableViewModel {
     
     let title: Variable<String>
-    let thumbnailType = ThumbnailType.Uncanny
+    let thumbnailType = ThumbnailType.Medium
     let thumbnailPath: Variable<NSURL>
     let hero: Hero
     
@@ -35,6 +35,30 @@ struct HeroTableViewModel {
     
     static func transform(heroes: [Hero]) -> [HeroTableViewModel] {
         return heroes.map(HeroTableViewModel.init)
+    }
+    
+}
+
+extension HeroTableViewModel: NibProvidableClassProvider {
+    
+    var nibProvidableType: NibProvidable.Type {
+        return HeroTableViewCell.self
+    }
+    
+}
+
+extension HeroTableViewModel: ReuseableViewClassProvider {
+    
+    var reusableViewType: ReusableView.Type {
+        return HeroTableViewCell.self
+    }
+    
+}
+
+extension HeroTableViewModel: VariableProvidable {
+    
+    var variable: Variable<HeroTableViewModel> {
+        return Variable(self)
     }
     
 }

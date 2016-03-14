@@ -22,8 +22,8 @@ extension Hero: Decodable {
     static func decode(json: JSON) -> Decoded<Hero> {
         return curry(Hero.init)
             <^> json <| "id"
-            < * > json <| "name"
-            < * > json <| "thumbnail"
+            <*> json <| "name"
+            <*> json <| "thumbnail"
     }
     
 }

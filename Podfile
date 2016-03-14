@@ -3,6 +3,7 @@ use_frameworks!
 
 target 'RxMarvel' do
 	pod 'Alamofire'
+	pod 'AlamofireImage'
 	pod 'Argo'
 	pod 'Curry'
 	pod 'Runes'

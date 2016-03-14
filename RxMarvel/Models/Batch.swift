@@ -21,9 +21,9 @@ extension Batch: Decodable {
     static func decode(json: JSON) -> Decoded<Batch> {
         return curry(Batch.init)
             <^> json <| "offset"
-            < * > json <| "limit"
-            < * > json <| "total"
-            < * > json <| "count"
+            <*> json <| "limit"
+            <*> json <| "total"
+            <*> json <| "count"
     }
     
 }

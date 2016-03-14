@@ -26,8 +26,6 @@
 <integer>1</integer>
 <key>kNumberOfEmptyLinesAboveMARK</key>
 <integer>1</integer>
-<key>kMathOperatorSpacingRule</key>
-<integer>1</integer>
 <key>kRequireOpenBraceForSwitchStatement</key>
 <true/>
 <key>kColonSpacingRuleInVariableDeclaration</key>
@@ -50,8 +48,6 @@
 <integer>0</integer>
 <key>kShouldSurroundEqualsWithSpaces</key>
 <true/>
-<key>kGenericDeclarationSpacingRule</key>
-<integer>3</integer>
 <key>kNumberOfEmptyLinesBelowMARK</key>
 <integer>1</integer>
 <key>kColonSpacingRuleInDictionary</key>
@@ -71,8 +67,6 @@
 <key>kShouldEnumNameStartWithCapitalLetter</key>
 <true/>
 <key>kShouldVariableNameStartWithCapitalLetter</key>
-<false/>
-<key>kShouldFuncNameStartWithCapitalLetter</key>
 <false/>
 <key>kShouldClassNameStartWithCapitalLetter</key>
 <true/>
@@ -104,8 +98,6 @@
 <integer>1</integer>
 <key>kNumberOfEmptyLinesAboveMARK</key>
 <integer>1</integer>
-<key>kMathOperatorSpacingRule</key>
-<integer>1</integer>
 <key>kRequireOpenBraceForSwitchStatement</key>
 <true/>
 <key>kColonSpacingRuleInVariableDeclaration</key>
@@ -128,8 +120,6 @@
 <integer>0</integer>
 <key>kShouldSurroundEqualsWithSpaces</key>
 <true/>
-<key>kGenericDeclarationSpacingRule</key>
-<integer>3</integer>
 <key>kNumberOfEmptyLinesBelowMARK</key>
 <integer>1</integer>
 <key>kColonSpacingRuleInDictionary</key>
@@ -149,8 +139,6 @@
 <key>kShouldEnumNameStartWithCapitalLetter</key>
 <true/>
 <key>kShouldVariableNameStartWithCapitalLetter</key>
-<false/>
-<key>kShouldFuncNameStartWithCapitalLetter</key>
 <false/>
 <key>kShouldClassNameStartWithCapitalLetter</key>
 <true/>

@@ -13,8 +13,8 @@ import RxSwift
 struct Marvel {
     
     private struct Keys {
-        static let privateKey = "a17fd4c41a55d4c5c2845f18b785d453"
-        static let publicKey = "28d6caee2530ae4791e22b142edadd4a99033d9e"
+        static let privateKey = "28d6caee2530ae4791e22b142edadd4a99033d9e"
+        static let publicKey = "a17fd4c41a55d4c5c2845f18b785d453"
     }
     
     private static let formatter: NSDateFormatter = {
