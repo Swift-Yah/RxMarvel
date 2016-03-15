@@ -62,3 +62,19 @@ extension HeroTableViewModel: VariableProvidable {
     }
     
 }
+
+extension HeroTableViewModel: Hashable {
+    
+    var hashValue: Int {
+        return title.value.hash ^ thumbnailPath.value.hash
+    }
+    
+}
+
+func == (lhs: HeroTableViewModel, rhs: HeroTableViewModel) -> Bool {
+    let thumbnailEqual = lhs.thumbnailPath.value == rhs.thumbnailPath.value
+    let thumbnailTypeEqual = lhs.thumbnailType == rhs.thumbnailType
+    let titleEqual = lhs.title.value == rhs.title.value
+    
+    return thumbnailEqual && thumbnailTypeEqual && titleEqual
+}

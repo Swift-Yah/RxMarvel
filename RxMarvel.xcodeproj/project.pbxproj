@@ -16,6 +16,12 @@
 		532113101C965F9B00271E66 /* VariableProvidable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321130F1C965F9B00271E66 /* VariableProvidable.swift */; };
 		532113121C9660EA00271E66 /* BindableCellFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532113111C9660EA00271E66 /* BindableCellFactory.swift */; };
 		532113141C96679D00271E66 /* HeroAutoLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532113131C96679D00271E66 /* HeroAutoLoading.swift */; };
+		5384972C1C98A2C70014EF41 /* SearchDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5384972B1C98A2C70014EF41 /* SearchDataSource.swift */; };
+		5384972E1C98A3AB0014EF41 /* ChangeableDataSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5384972D1C98A3AB0014EF41 /* ChangeableDataSourceType.swift */; };
+		538497301C98A53C0014EF41 /* SearchHeroTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5384972F1C98A53C0014EF41 /* SearchHeroTableViewController.swift */; };
+		538497321C98A5EA0014EF41 /* RxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538497311C98A5EA0014EF41 /* RxTableViewController.swift */; };
+		538497351C98AD5D0014EF41 /* SearchHeroTableAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538497341C98AD5D0014EF41 /* SearchHeroTableAdapter.swift */; };
+		538497391C98C3A30014EF41 /* HeroTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 538497381C98C3A30014EF41 /* HeroTableViewCell.xib */; };
 		5397616D1C9882C8003CB7FD /* RxSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5397616C1C9882C8003CB7FD /* RxSegue.swift */; };
 		53F9061F1C95E0390095E1B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9061E1C95E0390095E1B9 /* AppDelegate.swift */; };
 		53F906211C95E0390095E1B9 /* HeroTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F906201C95E0390095E1B9 /* HeroTableViewController.swift */; };
@@ -74,6 +80,12 @@
 		5321130F1C965F9B00271E66 /* VariableProvidable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariableProvidable.swift; sourceTree = "<group>"; };
 		532113111C9660EA00271E66 /* BindableCellFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindableCellFactory.swift; sourceTree = "<group>"; };
 		532113131C96679D00271E66 /* HeroAutoLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroAutoLoading.swift; sourceTree = "<group>"; };
+		5384972B1C98A2C70014EF41 /* SearchDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDataSource.swift; sourceTree = "<group>"; };
+		5384972D1C98A3AB0014EF41 /* ChangeableDataSourceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeableDataSourceType.swift; sourceTree = "<group>"; };
+		5384972F1C98A53C0014EF41 /* SearchHeroTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchHeroTableViewController.swift; sourceTree = "<group>"; };
+		538497311C98A5EA0014EF41 /* RxTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxTableViewController.swift; sourceTree = "<group>"; };
+		538497341C98AD5D0014EF41 /* SearchHeroTableAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchHeroTableAdapter.swift; sourceTree = "<group>"; };
+		538497381C98C3A30014EF41 /* HeroTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeroTableViewCell.xib; sourceTree = "<group>"; };
 		5397616C1C9882C8003CB7FD /* RxSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSegue.swift; sourceTree = "<group>"; };
 		53F9061B1C95E0390095E1B9 /* RxMarvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxMarvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F9061E1C95E0390095E1B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -158,10 +170,20 @@
 		532113041C96547100271E66 /* DataSources */ = {
 			isa = PBXGroup;
 			children = (
-				532113021C9653CF00271E66 /* AppendableDataSourceType.swift */,
 				532113051C96561500271E66 /* AppendableDataSource.swift */,
+				532113021C9653CF00271E66 /* AppendableDataSourceType.swift */,
+				5384972D1C98A3AB0014EF41 /* ChangeableDataSourceType.swift */,
+				5384972B1C98A2C70014EF41 /* SearchDataSource.swift */,
 			);
 			path = DataSources;
+			sourceTree = "<group>";
+		};
+		538497331C98AD020014EF41 /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				538497341C98AD5D0014EF41 /* SearchHeroTableAdapter.swift */,
+			);
+			path = Adapters;
 			sourceTree = "<group>";
 		};
 		53F906121C95E0390095E1B9 = {
@@ -189,6 +211,7 @@
 		53F9061D1C95E0390095E1B9 /* RxMarvel */ = {
 			isa = PBXGroup;
 			children = (
+				538497331C98AD020014EF41 /* Adapters */,
 				53F906251C95E0390095E1B9 /* Assets.xcassets */,
 				53F906631C95FF030095E1B9 /* BridgingHeaders */,
 				53F9064C1C95E07A0095E1B9 /* Common */,
@@ -236,6 +259,8 @@
 			isa = PBXGroup;
 			children = (
 				53F906201C95E0390095E1B9 /* HeroTableViewController.swift */,
+				538497311C98A5EA0014EF41 /* RxTableViewController.swift */,
+				5384972F1C98A53C0014EF41 /* SearchHeroTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -318,10 +343,11 @@
 				532113111C9660EA00271E66 /* BindableCellFactory.swift */,
 				C80F3A2B63BB0624126B3B42 /* BindableView.swift */,
 				C80F341804B9E30C35EB3C4B /* HeroTableViewCell.swift */,
+				538497381C98C3A30014EF41 /* HeroTableViewCell.xib */,
 				532113091C965B8100271E66 /* NibProvidable.swift */,
 				532113071C96594200271E66 /* ReusableView.swift */,
-				C80F3E9F1854D7D6AD1AB97F /* RxTableViewCell.swift */,
 				5397616C1C9882C8003CB7FD /* RxSegue.swift */,
+				C80F3E9F1854D7D6AD1AB97F /* RxTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -437,6 +463,7 @@
 				53F906291C95E0390095E1B9 /* LaunchScreen.storyboard in Resources */,
 				53F906261C95E0390095E1B9 /* Assets.xcassets in Resources */,
 				53F906241C95E0390095E1B9 /* Main.storyboard in Resources */,
+				538497391C98C3A30014EF41 /* HeroTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +550,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				538497351C98AD5D0014EF41 /* SearchHeroTableAdapter.swift in Sources */,
 				53F906561C95EDD30095E1B9 /* Hero.swift in Sources */,
 				53F906211C95E0390095E1B9 /* HeroTableViewController.swift in Sources */,
 				53F9066E1C961CC10095E1B9 /* Batch.swift in Sources */,
@@ -536,11 +564,14 @@
 				53F9065D1C95F5A10095E1B9 /* EndPoint.swift in Sources */,
 				53F9065F1C95F88B0095E1B9 /* Marvel.swift in Sources */,
 				53F906681C9607EB0095E1B9 /* Dictionary.swift in Sources */,
+				538497321C98A5EA0014EF41 /* RxTableViewController.swift in Sources */,
 				532113141C96679D00271E66 /* HeroAutoLoading.swift in Sources */,
+				5384972E1C98A3AB0014EF41 /* ChangeableDataSourceType.swift in Sources */,
 				53F9065B1C95F42A0095E1B9 /* JsonGET.swift in Sources */,
 				532113031C9653CF00271E66 /* AppendableDataSourceType.swift in Sources */,
 				53F906521C95E68B0095E1B9 /* ThumbnailType.swift in Sources */,
 				5321130A1C965B8100271E66 /* NibProvidable.swift in Sources */,
+				5384972C1C98A2C70014EF41 /* SearchDataSource.swift in Sources */,
 				53F906581C95EE4F0095E1B9 /* HeroTableViewModel.swift in Sources */,
 				53F906541C95EBB70095E1B9 /* Thumbnail.swift in Sources */,
 				53F9066C1C9611710095E1B9 /* UITableView.swift in Sources */,
@@ -552,6 +583,7 @@
 				5397616D1C9882C8003CB7FD /* RxSegue.swift in Sources */,
 				C80F35B32BC92DC6E0F5E484 /* BindableView.swift in Sources */,
 				C80F38A3127A2B790AD298C8 /* RxTableViewCell.swift in Sources */,
+				538497301C98A53C0014EF41 /* SearchHeroTableViewController.swift in Sources */,
 				C80F3A4098D5B62AA6164A2F /* HeroTableViewCell.swift in Sources */,
 				C80F35CF9F1AC9BC219EF740 /* UIImageView.swift in Sources */,
 			);
