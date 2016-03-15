@@ -11,9 +11,9 @@ import RxSwift
 /// The view controller for hero table view at `Main.storyboard`.
 class HeroTableViewController: UITableViewController {
     
-    private (set) var disposeBag = DisposeBag()
+    private(set) var disposeBag = DisposeBag()
     
-    private (set) lazy var dataSource: AppendableDataSource<HeroTableViewModel> = {
+    private(set) lazy var dataSource: AppendableDataSource<HeroTableViewModel> = {
         return AppendableDataSource(items: [], cellFactory: BindableCellFactory.cell)
     }()
     

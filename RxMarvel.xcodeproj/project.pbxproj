@@ -16,6 +16,7 @@
 		532113101C965F9B00271E66 /* VariableProvidable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321130F1C965F9B00271E66 /* VariableProvidable.swift */; };
 		532113121C9660EA00271E66 /* BindableCellFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532113111C9660EA00271E66 /* BindableCellFactory.swift */; };
 		532113141C96679D00271E66 /* HeroAutoLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532113131C96679D00271E66 /* HeroAutoLoading.swift */; };
+		5397616D1C9882C8003CB7FD /* RxSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5397616C1C9882C8003CB7FD /* RxSegue.swift */; };
 		53F9061F1C95E0390095E1B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9061E1C95E0390095E1B9 /* AppDelegate.swift */; };
 		53F906211C95E0390095E1B9 /* HeroTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F906201C95E0390095E1B9 /* HeroTableViewController.swift */; };
 		53F906241C95E0390095E1B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F906221C95E0390095E1B9 /* Main.storyboard */; };
@@ -73,6 +74,7 @@
 		5321130F1C965F9B00271E66 /* VariableProvidable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariableProvidable.swift; sourceTree = "<group>"; };
 		532113111C9660EA00271E66 /* BindableCellFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindableCellFactory.swift; sourceTree = "<group>"; };
 		532113131C96679D00271E66 /* HeroAutoLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroAutoLoading.swift; sourceTree = "<group>"; };
+		5397616C1C9882C8003CB7FD /* RxSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSegue.swift; sourceTree = "<group>"; };
 		53F9061B1C95E0390095E1B9 /* RxMarvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxMarvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F9061E1C95E0390095E1B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53F906201C95E0390095E1B9 /* HeroTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTableViewController.swift; sourceTree = "<group>"; };
@@ -319,6 +321,7 @@
 				532113091C965B8100271E66 /* NibProvidable.swift */,
 				532113071C96594200271E66 /* ReusableView.swift */,
 				C80F3E9F1854D7D6AD1AB97F /* RxTableViewCell.swift */,
+				5397616C1C9882C8003CB7FD /* RxSegue.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -546,6 +549,7 @@
 				532113101C965F9B00271E66 /* VariableProvidable.swift in Sources */,
 				53F9061F1C95E0390095E1B9 /* AppDelegate.swift in Sources */,
 				53F906721C9624580095E1B9 /* Json.swift in Sources */,
+				5397616D1C9882C8003CB7FD /* RxSegue.swift in Sources */,
 				C80F35B32BC92DC6E0F5E484 /* BindableView.swift in Sources */,
 				C80F38A3127A2B790AD298C8 /* RxTableViewCell.swift in Sources */,
 				C80F3A4098D5B62AA6164A2F /* HeroTableViewCell.swift in Sources */,

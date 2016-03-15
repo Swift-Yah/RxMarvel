@@ -10,41 +10,50 @@
       <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Extensions/String.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Extensions/UIImageView.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Extensions/UITableView.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/BridgingHeaders/RxMarvel-Bridging-Header.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Common/AppDelegate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Storyboards/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Storyboards/Base.lproj/Main.storyboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Views/BindableCellFactory.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Views/NibProvidable.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Views/RxSegue.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Views/BindableView.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Views/HeroTableViewCell.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Views/RxTableViewCell.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Views/ReusableView.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Network/EndPoint.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Network/ParamKeys.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Network/Marvel.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Network/ParamKeys.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Network/JsonGET.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Helpers/Dictionary.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Helpers/RxBindings.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Helpers/Json.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Assets.xcassets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Views/RxTableViewCell.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Views/BindableView.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Views/HeroTableViewCell.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/ViewModels/HeroTableViewModel.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Models/Thumbnail.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Models/Hero.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Models/ThumbnailType.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Models/HeroAPI.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Models/Batch.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Storyboards/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Storyboards/Base.lproj/Main.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RxMarvel/ViewControllers/HeroTableViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/ViewModels/NibProvidableClassProvider.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/ViewModels/VariableProvidable.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/ViewModels/HeroTableViewModel.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/ViewModels/ReuseableViewClassProvider.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Common/AppDelegate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Models/HeroAPI.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Models/ThumbnailType.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Models/HeroAutoLoading.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Models/Thumbnail.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Models/Batch.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/Models/Hero.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/DataSources/AppendableDataSourceType.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/DataSources/AppendableDataSource.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RxMarvel/BridgingHeaders/RxMarvel-Bridging-Header.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Curry/Source/Curry.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/KVORepresentable+CoreGraphics.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/Proxies/RxCLLocationManagerDelegateProxy.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/SectionedViewDataSourceType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/RxTarget.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/Observable+Bind.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/_RX.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/_RXDelegateProxy.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/DelegateProxyType.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/KVORepresentable.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/_RXDelegateProxy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/DelegateProxy.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/_RXKVOObserver.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/KVORepresentable+Swift.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/_RXDelegateProxy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/_RXKVOObserver.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/_RXObjCRuntime.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/Logging.swift" isTestSource="false" />
@@ -58,7 +67,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/Observables/NSObject+Rx+KVORepresentable.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/Observables/NSObject+Rx+RawRepresentable.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/Observables/NSNotificationCenter+Rx.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/_RX.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/DelegateProxyType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/CocoaUnits/ControlEvent.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/CocoaUnits/Driver/ControlProperty+Driver.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/CocoaUnits/Driver/ControlEvent+Driver.swift" isTestSource="false" />
@@ -68,15 +77,17 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/CocoaUnits/Driver/Variable+Driver.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/CocoaUnits/Driver/ObservableConvertibleType+Driver.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/CocoaUnits/Driver/Driver+Subscription.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/CocoaUnits/UIBindingObserver.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/CocoaUnits/ControlProperty.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/_RXObjCRuntime.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/RxCocoa.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/_RX.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/NSLayoutConstraint+Rx.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/CLLocationManager+Rx.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/Observable+Bind.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/Common/KVORepresentable.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/RxCocoa.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/UICollectionView+Rx.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/UIActivityIndicatorView+Rx.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/Events/ItemEvents.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxTableViewDelegateProxy.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxTextStorageDelegateProxy.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxTableViewDataSourceProxy.swift" isTestSource="false" />
@@ -92,39 +103,41 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/UITextField+Rx.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/UIStepper+Rx.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/UIImageView+Rx.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/UIApplication+Rx.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/UIScrollView+Rx.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/UICollectionView+Rx.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/Protocols/RxTableViewDataSourceType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/Protocols/RxCollectionViewDataSourceType.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/Events/ItemEvents.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/UIBarButtonItem+Rx.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/UISearchBar+Rx.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/NSTextStorage+Rx.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/UIImagePickerController+Rx.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/UIActivityIndicatorView+Rx.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/DataSources/RxTableViewReactiveArrayDataSource.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/DataSources/RxCollectionViewReactiveArrayDataSource.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/UISegmentedControl+Rx.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/UITableView+Rx.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/UIDatePicker+Rx.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/UIRefreshControl+Rx.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/UIView+Rx.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/DataSources/RxTableViewReactiveArrayDataSource.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/DataSources/RxCollectionViewReactiveArrayDataSource.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/UISlider+Rx.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/UIControl+Rx.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/UILabel+Rx.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxCocoa/RxCocoa/iOS/UITextView+Rx.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxAlamofire/RxAlamofire/Source/RxAlamofire.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Operators/DecodeOptional.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Operators/Argo.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Operators/DecodeDecoded.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Functions/catDecoded.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Functions/curry.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Functions/decode.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Functions/flatReduce.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Functions/sequence.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Resources/Argo.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Extensions/Dictionary.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Extensions/RawRepresentable.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Timeline.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Response.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Error.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Stream.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/MultipartFormData.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/ServerTrustPolicy.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Alamofire.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Result.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Manager.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Download.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/NetworkReachabilityManager.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/ParameterEncoding.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/ResponseSerialization.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Request.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Notifications.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Upload.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Validation.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Types/StandardTypes.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Types/Decodable.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Types/Decoded/Monad.swift" isTestSource="false" />
@@ -135,12 +148,27 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Types/Decoded/Alternative.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Types/JSON.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Types/DecodeError.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Functions/catDecoded.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Functions/curry.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Functions/decode.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Functions/flatReduce.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Functions/sequence.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Operators/DecodeOptional.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Operators/Argo.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Operators/DecodeDecoded.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Extensions/Dictionary.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Extensions/RawRepresentable.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Argo/Resources/Argo.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Argo/Carthage/Checkouts/Runes/Source/Runes.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Curry/Source/Curry.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Runes/Source/Runes.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Runes/Source/Optional.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Runes/Source/Array.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Runes/Source/Runes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AlamofireImage/Source/ImageFilter.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AlamofireImage/Source/Request+AlamofireImage.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AlamofireImage/Source/ImageCache.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AlamofireImage/Source/Image.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AlamofireImage/Source/ImageDownloader.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxAlamofire/RxAlamofire/Source/RxAlamofire.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxCocoa/RxCocoa-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxCocoa/RxCocoa.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h" isTestSource="false" />
@@ -153,24 +181,24 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Alamofire/Alamofire-prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Alamofire/Alamofire.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Alamofire/Alamofire-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Argo/Argo-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Argo/Argo-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Argo/Argo.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Argo/Argo-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Argo/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Argo/Argo.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AlamofireImage/AlamofireImage-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AlamofireImage/AlamofireImage-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AlamofireImage/AlamofireImage-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AlamofireImage/AlamofireImage.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AlamofireImage/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AlamofireImage/AlamofireImage.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxAlamofire/RxAlamofire.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxAlamofire/RxAlamofire-umbrella.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxAlamofire/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxAlamofire/RxAlamofire-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxAlamofire/RxAlamofire-prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxAlamofire/RxAlamofire.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Curry/Curry-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Curry/Curry.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Curry/Curry-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Curry/Curry.modulemap" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Curry/Curry-umbrella.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Curry/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Runes/Runes.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Runes/Runes-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Runes/Runes-umbrella.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Runes/Runes.modulemap" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Runes/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Runes/Runes-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RxMarvel/Pods-RxMarvel.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RxMarvel/Pods-RxMarvel-frameworks.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RxMarvel/Pods-RxMarvel-acknowledgements.plist" isTestSource="false" />
@@ -181,51 +209,61 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RxMarvel/Pods-RxMarvel-resources.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RxMarvel/Pods-RxMarvel-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RxMarvel/Pods-RxMarvel-umbrella.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Argo/Argo-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Argo/Argo-umbrella.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Argo/Argo.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Argo/Argo-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Argo/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Argo/Argo.modulemap" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxSwift/RxSwift.modulemap" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxSwift/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxSwift/RxSwift.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxSwift/RxSwift-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxSwift/RxSwift-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Runes/Runes.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Runes/Runes-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Runes/Runes-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Runes/Runes.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Runes/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Runes/Runes-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Curry/Curry-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Curry/Curry.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Curry/Curry-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Curry/Curry.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Curry/Curry-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Curry/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxBlocking/RxBlocking-prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxBlocking/RxBlocking-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxBlocking/RxBlocking.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxBlocking/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxBlocking/RxBlocking-umbrella.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxBlocking/RxBlocking.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxSwift/RxSwift.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxSwift/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxSwift/RxSwift.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxSwift/RxSwift-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RxSwift/RxSwift-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Runes/Source/Runes.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Runes/Source/Array.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Runes/Source/Optional.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Runes/Source/Runes.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/ObservableType.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Cancelable.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/ImmediateSchedulerType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Subjects/PublishSubject.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Subjects/SubjectType.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Subjects/BehaviorSubject.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Subjects/Variable.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Subjects/ReplaySubject.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Subjects/BehaviorSubject.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Subjects/SubjectType.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Subjects/Variable.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/RxMutableBox.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Disposable.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Cancelable.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/DataStructures/Queue.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/DataStructures/PriorityQueue.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/DataStructures/Bag.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/DataStructures/InfiniteSequence.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/ConnectableObservableType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/AnyObserver.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Platform/Platform.Linux.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Platform/Platform.Darwin.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observable+Extensions.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Errors.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/ObserverType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Extensions/String+Rx.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Disposables/BooleanDisposable.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Disposables/StableCompositeDisposable.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Disposables/RefCountDisposable.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Disposables/ScheduledDisposable.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Disposables/StableCompositeDisposable.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Disposables/SubscriptionDisposable.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Disposables/BinaryDisposable.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Disposables/DisposeBag.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Disposables/SubscriptionDisposable.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Disposables/BooleanDisposable.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Disposables/NopDisposable.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Disposables/CompositeDisposable.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Disposables/DisposeBase.swift" isTestSource="false" />
@@ -233,70 +271,70 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Disposables/SerialDisposable.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Disposables/AnonymousDisposable.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Disposables/NAryDisposable.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/ImmediateSchedulerType.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/ObservableConvertibleType.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observable.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Disposable.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Observable+Binding.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Observable+StandardSequenceOperators.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/SkipWhile.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Sink.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/DistinctUntilChanged.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Error.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Filter.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Just.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Debug.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/ConnectableObservable.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/TakeWhile.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/CombineLatest+CollectionType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/AddRef.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Amb.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Skip.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Buffer.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Repeat.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Map.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/CombineLatest.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Window.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/SkipUntil.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Do.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/RetryWhen.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Throttle.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Merge.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/ShareReplay1.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Catch.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/TakeUntil.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/TakeWhile.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Zip.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Reduce.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Do.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Zip+arity.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Debug.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/RefCount.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Range.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/ConnectableObservable.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Sequence.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Concat.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/WithLatestFrom.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/ElementAt.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/RetryWhen.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/SingleAsync.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/StartWith.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/ShareReplay1WhileConnected.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Zip+CollectionType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Multicast.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/RefCount.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Using.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Empty.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Just.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Buffer.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/ObserveOnSerialDispatchQueue.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Generate.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Repeat.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Scan.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Deferred.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Producer.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/ToArray.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/CombineLatest+arity.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Merge.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Take.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Switch.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Take.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/ElementAt.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Never.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/ObserveOn.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/TakeLast.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Zip.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Sequence.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/AnonymousObservable.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/SubscribeOn.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Error.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Sample.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/DelaySubscription.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Timer.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Timeout.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Throttle.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/DistinctUntilChanged.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Implementations/Filter.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Observable+Creation.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Observable+Aggregate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Observable+Time.swift" isTestSource="false" />
@@ -304,12 +342,12 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Observable+Single.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Observable+Concurrency.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observables/Observable+Multiple.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observable+Extensions.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observable.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/ObservableConvertibleType.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/ConnectableObservableType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Event.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observers/TailRecursiveSink.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observers/AnonymousObserver.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observers/ObserverBase.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Observers/TailRecursiveSink.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/SchedulerType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Rx.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Schedulers/MainScheduler.swift" isTestSource="false" />
@@ -326,39 +364,22 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Schedulers/HistoricalScheduler.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Schedulers/VirtualTimeScheduler.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Schedulers/ConcurrentMainScheduler.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Schedulers/Internal/AnonymousInvocable.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Schedulers/Internal/ScheduledItem.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Schedulers/Internal/ScheduledItemType.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Schedulers/Internal/InvocableType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Schedulers/Internal/InvocableScheduledItem.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Concurrency/SynchronizedDisposeType.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Schedulers/Internal/AnonymousInvocable.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Schedulers/Internal/InvocableType.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Schedulers/Internal/ScheduledItemType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Concurrency/SynchronizedUnsubscribeType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Concurrency/SynchronizedSubscribeType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Concurrency/Lock.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Concurrency/SynchronizedOnType.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Concurrency/SynchronizedDisposeType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Concurrency/LockOwnerType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Concurrency/AsyncLock.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RxSwift/RxSwift/Concurrency/SynchronizedOnType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxBlocking/RxBlocking/BlockingObservable.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxBlocking/RxBlocking/ObservableConvertibleType+Blocking.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxBlocking/RxBlocking/RunLoopLock.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/RxBlocking/RxBlocking/BlockingObservable+Operators.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Download.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Timeline.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Error.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Stream.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/MultipartFormData.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/ServerTrustPolicy.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/ParameterEncoding.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Result.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Manager.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Upload.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/NetworkReachabilityManager.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/ResponseSerialization.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Request.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Notifications.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Validation.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Response.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Alamofire.swift" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
