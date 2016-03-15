@@ -11,13 +11,17 @@ import RxSwift
 /// The view controller for hero table view at `Main.storyboard`.
 class HeroTableViewController: UITableViewController {
     
+    lazy var api: HeroAutoLoading.Type = HeroAPI.self
+    
     private(set) var disposeBag = DisposeBag()
     
     private(set) lazy var dataSource: AppendableDataSource<HeroTableViewModel> = {
         return AppendableDataSource(items: [], cellFactory: BindableCellFactory.cell)
     }()
     
-    lazy var api: HeroAutoLoading.Type = HeroAPI.self
+    private(set) lazy var searchAdapter: SearchHeroTableAdapter<Hero, HeroTableViewModel> = {
+        return SearchHeroTableAdapter(searchEvent: self.api.searchItems, viewModelMap: HeroTableViewModel.transform)
+    }()
     
     // MARK: UIViewController methods
     
@@ -33,6 +37,7 @@ class HeroTableViewController: UITableViewController {
     private func setUpTableView() {
         tableView.delegate = nil
         tableView.dataSource = dataSource
+        tableView.tableHeaderView = searchAdapter.searchController.searchBar
     }
     
     private func loadData() {

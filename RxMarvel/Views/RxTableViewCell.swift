@@ -9,7 +9,18 @@ class RxTableViewCell<ViewModelType>: UITableViewCell, BindableView {
     
     typealias V = ViewModelType
     
-    let onPrepareForReuse: Observable<Void> = PublishSubject()
+    let rx_prepareForReuse: Observable<Void> = PublishSubject()
+    
+    // MARK: UITableViewCell methods
+    
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        
+        guard let rx_prepareForReuse = rx_prepareForReuse as? PublishSubject else { return }
+        rx_prepareForReuse.onNext()
+    }
+    
+    // MARK: Bindable conforms
     
     var rx_viewModel: AnyObserver<V> {
         return AnyObserver { event in
